@@ -81,7 +81,7 @@ body{
     display: block;
     background-color: burlywood;
     color: #000;
-    font-size: larger;
+    font-size: small;
 }
 
  ::placeholder{
@@ -152,7 +152,7 @@ body{
 
    input[type="file"]::file-selector-button{
     background-color: #eec36e;
-   
+    font-size: small;
     width: 8vw;
     height: 4vh;
     color: #20540e;
