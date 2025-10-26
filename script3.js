@@ -9,7 +9,7 @@ let parentDiv2=document.getElementById("flex21");
 
 const width=window.innerWidth;
 
-if(width<=1000){
+if(width<=1100){
     parentDiv1.style.display="block";
     parentDiv1.style.marginBottom="70vh";
     parentDiv1.style.width="180%";
@@ -29,7 +29,7 @@ if(width<=1000){
 
 }
 
-else if(width>1000){
+else if(width>1100){
     parentDiv1.style.display="flex";
     parentDiv1.style.marginBottom="0vh";
     parentDiv1.style.width="100%";
