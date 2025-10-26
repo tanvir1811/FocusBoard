@@ -9,7 +9,7 @@ let parentDiv2=document.getElementById("flex21");
 
 const width=window.innerWidth;
 
-if(width<=800){
+if(width<=480){
     parentDiv1.style.display="block";
     parentDiv1.style.marginBottom="70vh";
     parentDiv1.style.width="180%";
@@ -29,7 +29,7 @@ if(width<=800){
 
 }
 
-else if(width>800){
+else if(width>480){
     parentDiv1.style.display="flex";
     parentDiv1.style.marginBottom="0vh";
     parentDiv1.style.width="100%";
@@ -45,5 +45,6 @@ else if(width>800){
 
 }
 }
+check();
 
  window.addEventListener("resize", check);
